@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
 import { ContactList } from './components/ContactList/ContactList';
-import {ContactForm} from './components/Form/ContactForm';
+import { ContactForm } from './components/Form/ContactForm';
 import { SearchBox } from './components/SearchBox/SearchBox';
+
   
 function App() {
       const defaultContacts = [
